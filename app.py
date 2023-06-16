@@ -28,3 +28,15 @@ st.image(image="img/img.png")  # 키워드를 사용해서...
 st.image("img/img.png", use_column_width=True)  #파일 경로 (app.py)
 st.image("img/img.png", width=100)  # 파일 경로 (app.py) / width=100 = 이미지 픽셀 크기
 # https://imgur.com/
+
+# GIF 파일 로드하기
+gif_file = open('example.gif', 'rb').read()
+
+# 이미지 추가하기
+st.image(gif_file, format='gif')
+
+import requests
+
+response = requests.get("https://media2.giphy.com/media/MT5UUV1d4CXE2A37Dg/giphy.gif?cid=7941fdc6ko0md0152a5yh2pzbmjcevj3u457281v3jc5bqz8&ep=v1_gifs_search&rid=giphy.gif&ct=g")
+gif = response.content
+st.image(gif, format="gif")
