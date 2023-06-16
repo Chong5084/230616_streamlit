@@ -14,6 +14,9 @@ st.write("내가 만든 페이지, 너를 위해 구웠지 feat. Chong")
 
 # 기능이 실행되는 순수대로 화면에서 추렭
 st.video("https://www.youtube.com/watch?v=SaCheA6Njc4") # 암 유투브 링크
+
 st.imge("https://media2.giphy.com/media/MT5UUV1d4CXE2A37Dg/giphy.gif?cid=7941fdc6ko0md0152a5yh2pzbmjcevj3u457281v3jc5bqz8&ep=v1_gifs_search&rid=giphy.gif&ct=g")
+st.githy("https://media2.giphy.com/media/MT5UUV1d4CXE2A37Dg/giphy.gif?cid=7941fdc6ko0md0152a5yh2pzbmjcevj3u457281v3jc5bqz8&ep=v1_gifs_search&rid=giphy.gif&ct=g")
+st.git("https://media2.giphy.com/media/MT5UUV1d4CXE2A37Dg/giphy.gif?cid=7941fdc6ko0md0152a5yh2pzbmjcevj3u457281v3jc5bqz8&ep=v1_gifs_search&rid=giphy.gif&ct=g")
 
 # streamlit run app.py
