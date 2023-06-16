@@ -14,8 +14,16 @@ st.write("내가 만든 페이지, 너를 위해 구웠지 feat. Chong")
 
 # 기능이 실행되는 순수대로 화면에서 추렭
 st.video("https://www.youtube.com/watch?v=SaCheA6Njc4") # 암 유투브 링크
-
-st.githy("https://media2.giphy.com/media/MT5UUV1d4CXE2A37Dg/giphy.gif?cid=7941fdc6ko0md0152a5yh2pzbmjcevj3u457281v3jc5bqz8&ep=v1_gifs_search&rid=giphy.gif&ct=g")
-st.git("https://media2.giphy.com/media/MT5UUV1d4CXE2A37Dg/giphy.gif?cid=7941fdc6ko0md0152a5yh2pzbmjcevj3u457281v3jc5bqz8&ep=v1_gifs_search&rid=giphy.gif&ct=g")
-
+st.image("https://cdn.pixabay.com/photo/2023/06/02/14/12/woman-8035772_1280.jpg")  # 인터넷 링크
+st.gif("https://media2.giphy.com/media/MT5UUV1d4CXE2A37Dg/giphy.gif?cid=7941fdc6ko0md0152a5yh2pzbmjcevj3u457281v3jc5bqz8&ep=v1_gifs_search&rid=giphy.gif&ct=g")  # 인터넷 링크
 # streamlit run app.py
+# 기능이 실행되는 순서대로 화면에서 표현
+st.video("https://www.youtube.com/watch?v=SaCheA6Njc4")  # 유튜브 링크
+st.image("https://cdn.pixabay.com/photo/2023/06/02/14/12/woman-8035772_1280.jpg")  # 인터넷 링크
+st.image("https://i.imgur.com/jorp5JH.png")  # 인터넷 링크
+# 여러 가지 옵션을 넣어서 세부 기능들을 차이
+st.image("img/img.png")  # 파일 경로 (app.py)
+st.image(image="img/img.png")  # 키워드를 사용해서...
+# st.image("img/img.png", use_column_width=True)  # 파일 경로 (app.py)
+# st.image("img/img.png", width=100)  # 파일 경로 (app.py)
+# https://imgur.com/
