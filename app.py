@@ -12,7 +12,7 @@ st.header("수업 8일차에 만들었어요")
 st.subheader("그래도 잘 만들었죠?")
 st.write("내가 만든 페이지, 너를 위해 구웠지 feat. Chong")
 
-# 기능이 실행되는 순수대로 화면에서 추렭
+# 기능이 실행되는 순수대로 화면에서 출력
 st.video("https://www.youtube.com/watch?v=SaCheA6Njc4") # 암 유투브 링크
 st.image("https://cdn.pixabay.com/photo/2023/06/02/14/12/woman-8035772_1280.jpg")  # 인터넷 링크
 # streamlit run app.py

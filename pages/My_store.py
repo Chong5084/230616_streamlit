@@ -4,7 +4,7 @@ import streamlit as st
 
 st.title("My_store")
 st.header("연습용 쇼핑몰 사이트")
-st.subheader("그래도 잘 만들었죠?")
+st.subheader("공사 중")
 st.divider()
 
 def get_food_list(stores):
