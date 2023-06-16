@@ -12,5 +12,6 @@ st.header("수업 8일차에 만들었어요")
 st.subheader("그래도 잘 만들었죠?")
 st.write("내가 만든 페이지, 너를 위해 구웠지")
 
-# streamlit run app.py
+streamlit run app.py
+
 
