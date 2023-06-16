@@ -28,3 +28,4 @@ st.image(image="img/img.png")  # 키워드를 사용해서...
 st.image(" img/img.png", use_column_width=True)  #파일 경로 (app.py)
 st.image("img/img.png", width=100)  # 파일 경로 (app.py) / width=100 = 이미지 픽셀 크기
 # https://imgur.com/
+##
